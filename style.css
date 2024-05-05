@@ -680,9 +680,7 @@ header {
     margin: 20px 0px;
 }
 
-.sec4-8 {
-    position: relative;
-}
+
 
 .sec4-9 {
     width: 180px;
@@ -710,6 +708,10 @@ header {
 }
 
 .sec4-9-1 {
+    position: relative;
+}
+
+.sec4-9-1 {
     width: 130px;
     height: 130px;
 }
@@ -723,8 +725,8 @@ header {
 
 .sec4-9-1 .sp1 {
     position: absolute;
-    left: 8.5rem;
-    top: 52px;
+    left: 3rem;
+    top: 50px;
     font-weight: bold;
     font-size: 160%;
 }
@@ -738,8 +740,8 @@ header {
 
 .sec4-9-1 .sp2 {
     position: absolute;
-    left: 27.3rem;
-    top: 53px;
+    left: 3rem;
+    top: 50px;
     font-weight: bold;
     font-size: 160%;
 }
@@ -753,8 +755,8 @@ header {
 
 .sec4-9-1 .sp3 {
     position: absolute;
-    left: 8.5rem;
-    top: 21.5rem;
+    left: 3rem;
+    top: 50px;
     font-weight: bold;
     font-size: 160%;
 }
@@ -766,10 +768,12 @@ header {
     stroke-dashoffset: 50;
 }
 
+
+
 .sec4-9-1 .sp4 {
     position: absolute;
-    left: 27.4rem;
-    top: 21.5rem;
+    left: 3rem;
+    top: 50px;
     font-weight: bold;
     font-size: 160%;
 }
@@ -1024,21 +1028,7 @@ section6 {
         margin-left: 80px;
     }
 
-    .sec4-9-1 .sp1 {
-        left: 5.4rem;
-    }
 
-    .sec4-9-1 .sp2 {
-        left: 19.8rem;
-    }
-
-    .sec4-9-1 .sp3 {
-        left: 5.5rem;
-    }
-
-    .sec4-9-1 .sp4 {
-        left: 19.8rem;
-    }
 
     .sec5-3 {
         display: grid;
@@ -1055,6 +1045,16 @@ section6 {
 @media(max-width:550px) {
     .sec2 {
         margin-top: 30px;
+    }
+
+    .rig-img {
+        width: 340px;
+        height: 340px;
+    }
+
+    .ring {
+        width: 350px;
+        height: 350px;
     }
 
     .sec2-full {
@@ -1093,7 +1093,7 @@ section6 {
 
     .sec3-4 {
         width: 100%;
-        height: 65vh;
+        height: auto;
         color: rgb(255, 114, 5);
     }
 
@@ -1112,31 +1112,43 @@ section6 {
 
     .sec4-3,
     .sec4-4 {
+        height: auto;
         width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sec4-4 {
+        padding-bottom: 30px;
+    }
+
+    .sec4-3 {
+        padding-bottom: 30px;
     }
 
     .sec4-8 {
+        grid-template-columns: 100%;
         row-gap: 50px;
     }
 
-    .sec4-9-1 .sp1 {
-        top: 58px;
-        left: 5.9rem;
+
+    .sec4-6:nth-child(1) span {
+        left: 63%;
     }
 
-    .sec4-9-1 .sp2 {
-        top: 58px;
-        left: 20.3rem;
+    .sec4-6:nth-child(2) span {
+        left: 57%;
     }
 
-    .sec4-9-1 .sp3 {
-        left: 5.9rem;
-        top: 18.7rem;
+    .sec4-6:nth-child(3) span {
+        left: 52%;
     }
 
-    .sec4-9-1 .sp4 {
-        top: 18.7rem;
-        left: 20.5rem;
+    .sec4-6:nth-child(4) span {
+        left: 52%;
+    }
+
+    .sec4-6:nth-child(5) span {
+        left: 47%;
     }
 
     .sec5-3 {
